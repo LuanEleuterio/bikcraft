@@ -51,6 +51,10 @@ P {
   margin: 9px auto;
 }
 
+img {
+  display: block;
+}
+
 /* HEADER */
 
 .header {
@@ -101,7 +105,7 @@ P {
   height: 380px;
   background-image: url("../img/bg.jpg");
   background-size: cover;
-  margin-top: 96px;
+  margin-top: 92px;
   text-align: center;
   padding-top: 80px;
 }
@@ -144,7 +148,7 @@ P {
 /* PRODUTOS */
 
 .produtos {
-  padding: 60px 0;
+  padding: 40px 0;
 }
 
 .produtos_list li {
@@ -161,10 +165,6 @@ P {
   margin: 10px 0px;
 }
 
-.produtos_list li p {
-  padding: 10px 20px 20px 20px;
-}
-
 .produtos_list li h3::after {
   content: "";
   display: block;
@@ -172,6 +172,10 @@ P {
   height: 3px;
   background: #000;
   margin: 5px auto;
+}
+
+.produtos_list li p {
+  padding: 10px 20px 20px 20px;
 }
 .produtos_icone {
   background-color: #000;
@@ -211,4 +215,53 @@ P {
 
 .portfolio .call p {
   color: #fff;
+}
+
+/* QUALIDADE */
+
+.qualidade {
+  padding: 40px 0;
+}
+
+.qualidade::after {
+  content: "";
+  width: 634px;
+  height: 83px;
+  display: block;
+  background: url("../img/linhas.svg") no-repeat center;
+  position: absolute;
+  top: 190px;
+  right: 162px;
+  z-index: -1;
+}
+
+.qualidade img {
+  margin: 0 auto;
+}
+
+.qualidade_list {
+  padding-top: 30px;
+}
+
+.qualidade_list li {
+  text-align: center;
+  padding: 0 40px;
+}
+
+.qualidade_list li h3 {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 25px;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  margin: 10px 0px;
+}
+
+.qualidade_list li h3::after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 3px;
+  background: #000;
+  margin: 5px auto;
 }
