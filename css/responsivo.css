@@ -1,0 +1,41 @@
+@media only screen and (min-width: 788px) and (max-width: 979px) {
+}
+
+@media only screen and (max-width: 787px) {
+  /* HEADER */
+  .header {
+    position: relative;
+    padding-bottom: 0;
+  }
+
+  .header img {
+    margin: 0 auto 10px auto;
+  }
+
+  .header_menu {
+    text-align: center;
+    margin-top: 10px;
+  }
+
+  .header_menu ul li {
+    margin: 5px;
+  }
+
+  .header_menu ul li a {
+    width: 120px;
+    display: block;
+    float: left;
+    border: 4px solid #000;
+  }
+
+  .header_menu ul li a:hover {
+    border-color: #fff;
+  }
+
+  /* INTRODUÇÃO */
+  .introducao {
+    margin-top: 0;
+    padding-top: 20px;
+    background-image: url("../img/bg-mobile.jpg");
+  }
+}
