@@ -20,6 +20,11 @@
 }
 
 @media only screen and (max-width: 787px) {
+  /* GERAL */
+  .header_menu ul li a.menu_ativo {
+    border-color: #fff;
+  }
+
   /* HEADER */
   .header {
     position: relative;
@@ -61,6 +66,10 @@
     font-size: 36px;
   }
 
+  .introducao-interna {
+    margin-top: 0px;
+  }
+
   /* QUALIDADE HOME */
   .qualidade::after {
     display: none;
@@ -69,5 +78,18 @@
   /* CALL TO ACTION */
   .call {
     padding-top: 20px;
+  }
+
+  /* MISSÃO SOBRE */
+
+  .missao_sobre p {
+    font-size: 14px;
+    line-height: 20px;
+    padding-right: 0px;
+  }
+
+  .missao_sobre ul li {
+    font-size: 14px;
+    line-height: 25px;
   }
 }
