@@ -1,3 +1,4 @@
+/* TABLET */
 @media only screen and (min-width: 788px) and (max-width: 979px) {
   /* QUALIDADE HOME */
   .qualidade::after {
@@ -16,6 +17,28 @@
   .footer_redes ul li a img {
     width: 26px;
     height: 26px;
+  }
+
+  /* PRODUTOS */
+
+  .produtos_item h2 {
+    top: -155px;
+    margin-bottom: -56px;
+  }
+
+  .produto_icone {
+    padding: 41px 0;
+  }
+
+  .produto_info p {
+    font-size: 14px;
+    line-height: 20px;
+    height: 122px;
+    padding: 25px 25px;
+  }
+
+  .produto_info ul li {
+    width: 181px;
   }
 }
 
@@ -91,5 +114,35 @@
   .missao_sobre ul li {
     font-size: 14px;
     line-height: 25px;
+  }
+
+  /* PRODUTOS */
+
+  .produtos_item h2 {
+    top: -108px;
+    margin-bottom: -68px;
+  }
+
+  .produto_icone {
+    padding: 41px 0;
+  }
+
+  .produto_info p {
+    font-size: 14px;
+    line-height: 20px;
+    height: 122px;
+    padding: 25px 25px;
+  }
+
+  .produto_info ul li {
+    width: 149px;
+    font-size: 14px;
+  }
+
+  /* ORÇAMENTO */
+
+  .form,
+  .orcamento_dados ul {
+    padding-right: 0px;
   }
 }
