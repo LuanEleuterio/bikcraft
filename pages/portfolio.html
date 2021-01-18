@@ -8,9 +8,11 @@
 	<link rel="stylesheet" href="../css/normalize.css">
 	<link rel="stylesheet" href="../css/reset.css">
 	<link rel="stylesheet" href="../css/grid.css">
+	<link rel="stylesheet" href="../css/simple-slide.css">
 	<link rel="stylesheet" href="../css/style.css">
 	<link rel="stylesheet" href="../css/portfolio.css">
 	<link rel="stylesheet" href="../css/responsivo.css">
+	<script>document.documentElement.classList.add("js");</script>
 </head>
 
 <body>
@@ -38,18 +40,31 @@
 		</div>
 	</section>
 
-	<section class="container">
+	<section class="container" data-slide="quote">
 		<blockquote class="quote-cliente">
-			<p>"No mundo atual, a contínua expansão de nossa atividade cumpre um papel essencial na formulação de gestão inovadora do qual fazemos parte."</p>
+			<p>"No mundo atual, a contínua expansão de nossa atividade cumpre um papel essencial na formulação de gestão inovadora."</p>
 			<cite>Barbara Moss</cite>
+		</blockquote>
+		<blockquote class="quote-cliente">
+			<p>"Por outro lado, o fenômeno da Internet faz parte de um processo de gerenciamento das diversas correntes de pensamento."</p>
+			<cite>Maik O'Bannon</cite>
+		</blockquote>
+		<blockquote class="quote-cliente">
+			<p>"Neste sentido, a estrutura atual da organização aponta para a melhoria do fluxo de informações."</p>
+			<cite>Egon Zaitv</cite>
 		</blockquote>
 	</section>
 
 	<section class="portfolio">
-		<div class="container">
+		<div class="container" data-slide="portfolio-slide">
 			<ul class="portfolio_items">
 				<li class="grid-8"><img src="../img/portfolio/retro.jpg" alt="Bicicleta Retro"></li>
 				<li class="grid-8"><img src="../img/portfolio/passeio.jpg" alt="Bicicleta Passeio"></li>
+				<li class="grid-16"><img src="../img/portfolio/esporte.jpg" alt="Bicicleta Esporte"></li>
+			</ul>
+			<ul class="portfolio_items">
+				<li class="grid-8"><img src="../img/portfolio/passeio.jpg" alt="Bicicleta Passeio"></li>
+				<li class="grid-8"><img src="../img/portfolio/retro.jpg" alt="Bicicleta Retro"></li>
 				<li class="grid-16"><img src="../img/portfolio/esporte.jpg" alt="Bicicleta Esporte"></li>
 			</ul>
 		</div>
@@ -99,6 +114,9 @@
 		</div>
 
 	</footer>
+
+	<script src="../js/simple-slide.js"></script>
+	<script src="../js/script.js"></script>
 </body>
 
 </html>
