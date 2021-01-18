@@ -11,6 +11,7 @@
 	<link rel="stylesheet" href="../css/style.css">
 	<link rel="stylesheet" href="../css/contato.css">
 	<link rel="stylesheet" href="../css/responsivo.css">
+	<link rel="stylesheet" href="../css/simple-anime.css">
 	<script>document.documentElement.classList.add("js");</script>
 </head>
 
@@ -34,12 +35,12 @@
 
 	<section class="introducao-interna interna_contato">
 		<div class="container">
-			<h1>Contato</h1>
-			<p>tire sua dúvidas com a gente.</p>
+			<h1 class="fadeInUp" data-anime="400">Contato</h1>
+			<p class="fadeInUp" data-anime="700">tire sua dúvidas com a gente.</p>
 		</div>
 	</section>
 
-	<section class="contato container">
+	<section class="contato container fadeInUp" data-anime="1000">
 		<form class="contato_form grid-8" id="form_orcamento" action="">
 			<label for="nome">Nome</label>
 			<input type="text" name="nome" id="nome">
@@ -65,7 +66,7 @@
 		</div>
 	</section>
 
-	<section class="container contato_mapa">
+	<section class="container contato_mapa fadeInUp" data-anime="1000">
 		<a href="https://google.com" target="_blank" class="grid-16"><img src="../img/endereco-bikcraft.jpg" alt="Endereço Bikcraft"></a>
 	</section>
 
@@ -112,6 +113,9 @@
 		</div>
 
 	</footer>
+
+	<script src="../js/simple-anime.js"></script>
+	<script src="../js/script.js"></script>
 </body>
 
 </html>
