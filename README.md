@@ -5,7 +5,7 @@ Esse projeto foi desenvolvido para o curso de Web Design da Origamid.
 ### :question: Mas o que é o Bikcraft 
 Bikcraft é uma empresa de venda de bicicletas montadas à mão.
 
- ### Tecnologias utilizadas  :hammer:
+ ### :hammer: Tecnologias utilizadas 
  
  ##### Front-end
  * JavaScript (ES6+)
