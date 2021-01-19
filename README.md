@@ -17,6 +17,6 @@ Bikcraft é uma empresa de venda de bicicletas montadas à mão.
  * Simple-slide
  * Simple-anime
  
- :heavy_exclamation_mark: o Bikcraft é totalmente responsivo :computer: :iphone:
+ :heavy_exclamation_mark: O site Bikcraft é totalmente responsivo :computer: :iphone:
  ### Feito por:
 :man:  [Luan Eleuterio](https://github.com/LuanEleuterio/)
