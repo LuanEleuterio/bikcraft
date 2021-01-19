@@ -11,16 +11,11 @@ Bikcraft é uma empresa de venda de bicicletas montadas à mão.
  * JavaScript (ES6+)
  * HTML5
  * CSS3
- * jQuery
  
  
  ##### Plugins
  * Simple-slide
  * Simple-anime
- 
- ##### API 
- * Distance Matrix API
- * Maps Javascript API
  
  :heavy_exclamation_mark: o Bikcraft é totalmente responsivo :computer: :iphone:
  ### Feito por:
