@@ -12,7 +12,7 @@ Bikcraft é uma empresa de venda de bicicletas construídas à mão.
 
 ##### Front-end
 
-- JavaScript (ES6+)
+- JavaScript
 - HTML5
 - CSS3
 
