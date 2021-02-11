@@ -26,3 +26,8 @@ Bikcraft é uma empresa de venda de bicicletas construídas à mão.
 ### Feito por:
 
 :man: [Luan Eleuterio](https://github.com/LuanEleuterio/)
+
+### Layout
+
+![bikcraft com_](https://user-images.githubusercontent.com/37514449/107689452-9a4c2b80-6c87-11eb-9dc5-9ba0be3063de.png)
+
